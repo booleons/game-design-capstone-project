@@ -11,7 +11,7 @@ public class player_health : MonoBehaviour
         {
             if (this.gameObject.tag == "Player")
             {
-                //this.gameObject.GetComponent<player_actions>().die();
+                this.gameObject.GetComponent<player_actions>().die();
             }
             else
             {
